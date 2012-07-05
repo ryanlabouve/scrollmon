@@ -9,7 +9,7 @@ Make something happen when you scroll to some height on some element
 - Provide a callback for if that condition is fulfilled
 
 ### example ###
-
+```javascript
 	    $("#main").scrollmon({
 	        condition: function() {
 	            return $(this).scrollTop() > 200;
@@ -18,6 +18,7 @@ Make something happen when you scroll to some height on some element
 	            $("body").toggleClass("asdf");
 	        }
 	    });
+```
 
 ## arguments ##
 _condition_

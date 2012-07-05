@@ -37,6 +37,7 @@ _reset_timeout_
 - integer in ms, how long until scrollmon will fire again immediatley
 
 ## defaults ##
+```javascript
             condition: function() {
                 return true;
             },
@@ -47,7 +48,7 @@ _reset_timeout_
             timeout: 500,
             reset_timeout: 2000,
             has_fired: false
-
+```
 ## requires ##
 
 - [cowboy / jquery-dotimeout][1]
